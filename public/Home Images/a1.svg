@@ -1,0 +1,13 @@
+<svg class="theme-icon" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1900_6275)">
+<path d="M25.5 7.5V0H22.5V7.5H25.5Z" fill="#142C73"></path>
+<path d="M16.0588 7.43933L12.0588 3.43933L9.9375 5.56065L13.9375 9.56065L16.0588 7.43933Z" fill="#142C73"></path>
+<path d="M35.9412 3.43933L31.9412 7.43933L34.0625 9.56065L38.0625 5.56065L35.9412 3.43933Z" fill="#142C73"></path>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.0014 11L43.8244 15.6322L44 15.5966V43.9496L24 48L4 43.9496V15.5966L4.17705 15.6325L24.0014 11ZM24.0014 14.1177L36.6771 17.0797L24 19.6471L11.3244 17.08L24.0014 14.1177ZM22.5 22.4413L7 19.3022V41.4592L22.5 44.5982V22.4413ZM25.5 44.5982L41 41.4592V19.3022L25.5 22.4413V44.5982Z" fill="#142C73"></path>
+</g>
+<defs>
+<clipPath id="clip0_1900_6275">
+<rect width="48" height="48" fill="white"></rect>
+</clipPath>
+</defs>
+</svg>

@@ -26,8 +26,8 @@ const OrderDetails = ({ children, orderItems }) => {
         </DialogHeader>
         <ScrollArea className="h-96  rounded-md border-2">
           {orderItems?.length
-            ? orderItems?.map((item) => (
-                <div className="grid grid-cols-[1fr_2fr]">
+            ? orderItems?.map((item, index) => (
+                <div key={index} className="grid grid-cols-[1fr_2fr]">
                   <ImageList images={item?.product?.images} />
                   <div className="p-2 flex flex-col justify-center">
                     <div className="flex justify-between items-center">

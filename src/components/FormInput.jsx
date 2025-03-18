@@ -48,5 +48,5 @@ const FormInput = forwardRef(
     );
   }
 );
-
+FormInput.displayName = "FormInput";
 export default FormInput;

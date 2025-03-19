@@ -22,7 +22,7 @@ import React from "react";
 // import LoginComponent from "../../../components/LoginComponent";
 import LoginComponent from "../../../components/LoginComponent";
 
-const Loginpage = () => {
+const Login = () => {
   return (
     <div>
       <LoginComponent />
@@ -30,7 +30,7 @@ const Loginpage = () => {
   );
 };
 
-export default Loginpage;
+export default Login;
 
 export function generateMetadata() {
   return {

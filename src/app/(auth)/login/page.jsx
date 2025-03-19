@@ -17,14 +17,13 @@
 //     description: "Description for login page",
 //   };
 // }
+// app/login/page.js
 import React from "react";
 import LoginComponent from "../../../components/LoginComponent";
 
-const LoginPage = ({ metadata }) => {
+const LoginPage = () => {
   return (
     <div>
-      <h1>{metadata.title}</h1>
-      <p>{metadata.description}</p>
       <LoginComponent />
     </div>
   );
@@ -32,13 +31,9 @@ const LoginPage = ({ metadata }) => {
 
 export default LoginPage;
 
-export async function getStaticProps() {
+export function generateMetadata() {
   return {
-    props: {
-      metadata: {
-        title: "Login Page for User",
-        description: "Description for login page",
-      },
-    },
+    title: "Login Page for User",
+    description: "Description for login page",
   };
 }

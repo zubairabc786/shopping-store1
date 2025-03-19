@@ -1,12 +1,8 @@
 "use client";
 
-// import { UploadButton } from "../../../lib/uploadthing";
-import { UploadButton } from "../lib/uploadthing";
-// import FormInput from "../../../components/FormInput";
 import FormInput from "./FormInput";
 // import FormSubmit from "../../../components/FormSubmit";
 import FormSubmit from "./FormSubmit";
-// import { login } from "../../../utils/action";
 import { login } from "../utils/action";
 // import { toast } from "../../../components/ui/use-toast";
 import { toast } from "../components/ui/use-toast";
@@ -58,10 +54,3 @@ const LoginComponent = () => {
 };
 
 export default LoginComponent;
-
-// export function generateMetadata() {
-//   return {
-//     title: "Login Page for User",
-//     description: "",
-//   };
-// }

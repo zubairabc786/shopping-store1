@@ -12,7 +12,7 @@ import { login } from "../utils/action";
 import { toast } from "../components/ui/use-toast";
 import Link from "next/link";
 
-const LoginPage = () => {
+const LoginComponent = () => {
   const onSubmit = async (formData) => {
     const res = await login(formData);
     if (res?.error) {
@@ -57,7 +57,7 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default LoginComponent;
 
 // export function generateMetadata() {
 //   return {
